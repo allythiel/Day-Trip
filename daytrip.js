@@ -10,3 +10,14 @@ function randomDestination() {
 }
 
 randomDestination();
+
+let restaurants = ["Kopps", "Pasta Tree", "Oakland Gyros", "Su Casa", "FreshFin"];
+
+function randomRestaurant() {
+    for (let i = 0; i < restaurants.length; i++) {
+        randomRest = restaurants[Math.floor(Math.random() * restaurants.length)];
+    }
+    console.log(randomRest);
+}
+
+randomRestaurant();
