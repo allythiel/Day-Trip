@@ -19,7 +19,6 @@ let myEntertainment = randomEvent(entertainment);
 
 function confirmDetails(string){
     let operationComplete = false;
-
     while(operationComplete === false){
         let userConfirm = confirm("Press okay to confirm " + string);
         operationComplete = userConfirm;
@@ -34,4 +33,14 @@ confirmDetails(myRestaurant);
 confirmDetails(myTransportation);
 confirmDetails(myEntertainment);
 
-console.log(finalTrip);
+function confirmTrip(){
+    let tripComplete = false;
+    while (tripComplete === false){
+        let userAccepted = confirm("would you like to confirm a trip including " + finalTrip);
+        tripComplete = userAccepted;
+    }
+    if (tripComplete === true) {
+        console.log(finalTrip);
+    }
+}
+confirmTrip();
