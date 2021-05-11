@@ -34,3 +34,15 @@ function randomTransportation() {
 }
 
 randomTransportation();
+
+
+let entertainment = ["Concert", "Hiking", "Shopping", "Bike Tour", "Go Swimming"];
+
+function randomEntertainment() {
+    for (let i = 0; i < entertainment.length; i++) {
+        randomEnt = entertainment[Math.floor(Math.random() * entertainment.length)];
+    }
+    console.log(randomEnt);
+}
+
+randomEntertainment();
