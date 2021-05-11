@@ -11,6 +11,7 @@ function randomDestination() {
 
 randomDestination();
 
+
 let restaurants = ["Kopps", "Pasta Tree", "Oakland Gyros", "Su Casa", "FreshFin"];
 
 function randomRestaurant() {
@@ -21,3 +22,15 @@ function randomRestaurant() {
 }
 
 randomRestaurant();
+
+
+let transportation = ["Bus", "Taxi", "Train", "Walk", "Bike", "Boat"];
+
+function randomTransportation() {
+    for (let i = 0; i < transportation.length; i++) {
+        randomTrans = transportation[Math.floor(Math.random() * transportation.length)];
+    }
+    console.log(randomTrans);
+}
+
+randomTransportation();
