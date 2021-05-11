@@ -3,10 +3,8 @@
 let destinations = ["Mexico", "Italy", "Greece", "New Zealand", "Canada"];
 
 function randomDestination() {
-   for (let i = 0; i < destinations.length; i++) {
-        randomDes = destinations[Math.floor(Math.random() * destinations.length)];
-    }
-    return (randomDes);
+    randomDes = destinations[Math.floor(Math.random() * destinations.length)];
+    return randomDes;
 }
 
 let myDestination = randomDestination();
@@ -15,10 +13,8 @@ let myDestination = randomDestination();
 let restaurants = ["Kopps", "Pasta Tree", "Oakland Gyros", "Su Casa", "FreshFin"];
 
 function randomRestaurant() {
-    for (let i = 0; i < restaurants.length; i++) {
-        randomRest = restaurants[Math.floor(Math.random() * restaurants.length)];
-    }
-    return (randomRest);
+    randomRest = restaurants[Math.floor(Math.random() * restaurants.length)];
+    return randomRest;
 }
 
 let myRestaurant = randomRestaurant();
@@ -27,10 +23,8 @@ let myRestaurant = randomRestaurant();
 let transportation = ["Bus", "Taxi", "Train", "Walk", "Bike", "Boat"];
 
 function randomTransportation() {
-    for (let i = 0; i < transportation.length; i++); {
-        randomTrans = transportation[Math.floor(Math.random() * transportation.length)];
-    }
-    return (randomTrans);
+    randomTrans = transportation[Math.floor(Math.random() * transportation.length)];
+    return randomTrans;
 }
 
 let myTransportation = randomTransportation();
@@ -39,10 +33,8 @@ let myTransportation = randomTransportation();
 let entertainment = ["Concert", "Hiking", "Shopping", "Bike Tour", "Go Swimming"];
 
 function randomEntertainment() {
-    for (let i = 0; i < entertainment.length; i++) {
-        randomEnt = entertainment[Math.floor(Math.random() * entertainment.length)];
-    }
-    return (randomEnt);
+    randomEnt = entertainment[Math.floor(Math.random() * entertainment.length)];
+    return randomEnt;
 }
 
 let myEntertainment = randomEntertainment();
