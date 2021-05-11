@@ -7,11 +7,31 @@ let transportation = ["Bus", "Taxi", "Train", "Walk", "Bike", "Boat"];
 let entertainment = ["Concert", "Hiking", "Shopping", "Bike Tour", "Go Swimming"];
 
 function randomEvent(array) {
-    randomItem = array[Math.floor(Math.random() * array.length)];
+    let randomItem = array[Math.floor(Math.random() * array.length)];
     return randomItem;
 }
 
-let myDestination = randomDestination(array);
-let myRestaurant = randomRestaurant(array);
-let myTransportation = randomTransportation(array);
-let myEntertainment = randomEntertainment(array);
+let myDestination = randomEvent(destinations);
+let myRestaurant = randomEvent(restaurants);
+let myTransportation = randomEvent(transportation);
+let myEntertainment = randomEvent(entertainment);
+
+
+function confirmDetails(string){
+    let operationComplete = false;
+
+    while(operationComplete === false){
+        let userConfirm = confirm("Press okay to confirm " + string);
+        operationComplete = userConfirm;
+    }
+    if (operationComplete === true) {
+        finalTrip.push(string);
+    }
+}
+
+confirmDetails(myDestination);
+confirmDetails(myRestaurant);
+confirmDetails(myTransportation);
+confirmDetails(myEntertainment);
+
+console.log(finalTrip);
