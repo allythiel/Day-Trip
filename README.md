@@ -1,5 +1,5 @@
-# Day-Trip
+# Day Trip
 
-The Day Trip app is a web application operated completely through the web browser as an introduction to JavaScript, and uses JavaScript as the only technology. 
+The Day Trip project is a web application operated completely through the web browser. This project was introduced in the beginning stages of devCodeCamp's 16 week immersive bootcamp and was very first project that allowed me to get an introduction into JavaScript. In this project, the sole technology that was used is JavaScript. 
 
-In this web application, the user has the ability to generate a random destination, restaurant, transportaion and entertainment to generate a day trip. This is useful for many that want to travel but have a hard time determining where they would like to go, where they would like to eat, etc. With this particular web app, the user has the ability to see their final selections within the console after confirming they like all of their selections. 
+In this web application, as a user, you have the ability to generate a day trip. This includes the ability to generate a random destination, restaturant, mode of transportation and entertainment during your trip. As they are randomly generated, you are also able to regenerate one of your selections until you are happy with the results. This is useful for many individuals who want to travel but have a diffuclt time determining some of the components of their trip, whether it be the location, food, methods of transportation, etc. With this particular web app, it takes all of the unknowns out and generates on its own to allow you to say yes or no and plan a trip seamlessly. 
